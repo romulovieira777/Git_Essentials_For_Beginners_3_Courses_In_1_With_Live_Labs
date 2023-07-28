@@ -1,0 +1,67 @@
+    1  git
+    2  sudo apt install git
+    3  sudo apt-get install git
+    4  which git
+    5  pwd
+    6  git config --global --list
+    7  cd
+    8  git config --global user.name
+    9  git config user.email
+   10  git config --global user.email
+   11  git config --global core.editor vi
+   12  git config --global --list
+   13  git config --global user.name
+   14  git
+   15  git status -h
+   16  git status --help
+   17  git help status
+   18  man git-status
+   19  ls
+   20  cd workspace/
+   21  ls
+   22  git init proj1
+   23  ls -l
+   24  mkdir proj2
+   25  cd proj2
+   26  git init 
+   27  ls -la
+   28  tree
+   29  sudo apt install tree
+   30  cd ..
+   31  cd proj1
+   32  watch -n 1 tree
+   33  git status
+   34  touch names.txt
+   35  echo Michael > names.txt 
+   36  cat names.txt 
+   37  mkdir cities fruits
+   38  vi cities/cities.txt
+   39  vi fruits/fruits.txt
+   40  git status
+   41  git add cities/cities.txt 
+   42  git status
+   43  git commit -m 'Adding cities.txt file'
+   44  git log
+   45  git status
+   46  git add .
+   47  git status
+   48  git commit -m "added fruits.txt and names.txt"
+   49  git status
+   50  git log
+   51  history >> Comands.txt
+   52  cat Comands.txt 
+   53  echo "Felicty" >> names.txt
+   54  git add names.txt 
+   55  git commit -m "Updated namex.txt"
+   56  git log
+   57  echo "Flash" >> names.txt
+   58  git status
+   59  git add names.txt 
+   60  git commit -m "Added Flash to names.txt"
+   61  git log
+   62  echo "Arqueiro" >> names.txt
+   63  git add .
+   64  git status
+   65  git commit -m "Jira#12001 Added Arqueiro"
+   66  git log
+   67  history
