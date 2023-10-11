@@ -1,0 +1,15 @@
+01 echo "1" > numbers.txt
+02 git add numbers.txt 
+03 git commit -m "first commit"
+04 clear
+05 git log
+06 echo "2" >> numbers.txt 
+07 git add numbers.txt 
+08 git commit -m "second commit"
+09 git log
+10 echo "3" >> numbers.txt 
+11 git add numbers.txt 
+12 git commit -m "third commit"
+13 git log
+14 git log --oneline
+15 history >> Commands.txt
