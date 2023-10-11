@@ -5,5 +5,6 @@
 - Section 02 - Course 1: Git Essentials
 - Section 03 - Getting Started
 - [Section 04 - Git Installation & Basic Concepts](https://github.com/romulovieira777/Git_Essentials_For_Beginners_3_Courses_In_1_With_Live_Labs/tree/main/Section_04_Git_Installation_%26_Basic_Concepts)
+- Section 05 - Git Architecture & Basic Operations
 
 Link to the course: [Udemy](https://www.udemy.com/course/mastering-git-for-beginners-and-experts/)
