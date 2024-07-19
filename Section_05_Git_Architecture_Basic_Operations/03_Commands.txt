@@ -1,0 +1,61 @@
+    1  cd Documents/
+    2  cd proj1/
+    3  git status
+    4  ls -l
+    5  git mv alpha.txt alpha-new.txt
+    6  git status
+    7  ls -l
+    8  git mv names.txt contacts/
+    9  ls -l
+   10  mkdir contacts/
+   11  cd contacts/
+   12  ls -l
+   13  cd ..
+   14  git status
+   15  git rm numbers.txt
+   16  git status
+   17  git commit -m "rename, move, delete"
+   18  git status
+   19  ls -l
+   20  git status
+   21  ls -l
+   22  vi alpha-new.txt
+   23  ls -l
+   24  vim alpha-new.txt
+   25  vi alpha-new.txt
+   26  git diff
+   27  git add .
+   28  git status
+   29  git commit -m "1"
+   30  git status
+   31  git diff
+   32  ls -l
+   33  git add .
+   34  git commit -m ""
+   35  git status
+   36  cat alpha-new.txt 
+   37  echo "d" >> alpha-new.txt 
+   38  cat alpha-new.txt 
+   39  git status
+   40  git diff
+   41  git diff --staged
+   42  git status
+   43  ls -l
+   44  git diff
+   45  git diff --staged
+   46  git status
+   47  git commit -am "updated books 55"
+   48  touch notes.txt
+   49  git status
+   50  git commit -am "created notex.txt"
+   51  git status
+   52  git add . --dry-run
+   53  git add --all --dry-run
+   54  git add --update --dry-run
+   55  git status
+   56  git add --update --dry-run
+   57  git add --update
+   58  git status
+   59  git commit -m "books, names"
+   60  git status
+   61  history >> 03_Commands.txt
