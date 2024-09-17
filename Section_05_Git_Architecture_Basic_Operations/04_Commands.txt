@@ -1,0 +1,88 @@
+    1  ls -l
+    2  git init proj1
+    3  ls -l
+    4  echo "Tom" > names.txt
+    5  echo "London" > cities.txt
+    6  echo "1" > numbers.txt
+    7  ls -l
+    8  sudo apt install git
+    9  cd proj1/
+   10  mkdir contacts
+   11  cd contacts/
+   12  echo "Client1 Address" > client1.txt
+   13  ls -l
+   14  cd ..
+   15  ls -l
+   16  git status
+   17  git add cities.txt
+   18  git status
+   19  clear
+   20  git status
+   21  git add .
+   22  git status
+   23  clear
+   24  git commit -m "first commit"
+   25  ls -l
+   26  cd contacts/
+   27  ls -l
+   28  echo "client2" > client2.txt
+   29  cd ..
+   30  ls -l
+   31  echo "22" > numbers.txt
+   32  clear
+   33  git status
+   34  git commit -m "2nd commit"
+   35  clear
+   36  git add .
+   37  git status
+   38  git commit -m "2nd commit"
+   39  clear
+   40  git log
+   41  echo "a" > alpha.txt
+   42  git status
+   43  echo "333" > numbers.txt
+   44  ls -l
+   45  echo "Tom" >> names.txt
+   46  git status
+   47  git add numbers.txt
+   48  git status
+   49  clear
+   50  git commit -m "3rd commit"
+   51  git log
+   52  history > 02_Commands.txt
+   53  pwd
+   54  cd Documents/
+   55  cd proj1/
+   56  ls
+   57  ls -l
+   58  cat numbers.txt 
+   59  clear
+   60  git diff
+   61  echo "11" >> nums.txt
+   62  cat nums.txt 
+   63  git diff
+   64  clear
+   65  vi nums.txt 
+   66  cat nums.txt 
+   67  git diff
+   68  vim nums.txt 
+   69  vi nums.txt 
+   70  cat nums.txt 
+   71  git status
+   72  git add nums.txt 
+   73  clear
+   74  git status
+   75  git diff
+   76  clear
+   77  git diff --cached
+   78  clear
+   79  git commit "added11"
+   80  git dif cached
+   81  git diff cached
+   82  clear
+   83  vi nums.txt 
+   84  git diff
+   85  git diff HEAD
+   86  clerar
+   87  clear
+   88  history >> 04_Commands.txt
