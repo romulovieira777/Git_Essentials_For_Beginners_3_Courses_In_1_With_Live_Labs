@@ -1,0 +1,47 @@
+    1  git status
+    2  ls -l
+    3  cat cities.txt 
+    4  echo "Boston" >> cities.txt 
+    5  cat cities.txt 
+    6  git status
+    7  git restore cities.txt
+    8  cat cities.txt 
+    9  clear
+   10  cat cities.txt 
+   11  echo "São Francisco" >> cities.txt 
+   12  git stagit status
+   13  git add cities.txt 
+   14  git status
+   15  clear
+   16  cat cit
+   17  cat cities.txt 
+   18  git restore --staged cities.txt
+   19  git status
+   20  cat cities.txt 
+   21  git restore cities.txt
+   22  cat cities.txt 
+   23  clear
+   24  git status
+   25  git log
+   26  cat numbers.txt 
+   27  echo "5" >> numbers.txt 
+   28  cat numbers.txt 
+   29  git add
+   30  git status
+   31  git commit -m "added5"
+   32  git status
+   33  git log
+   34  git show
+   35  git log --oneline
+   36  echo "6" >> numbers.txt 
+   37  cat numbers.txt 
+   38  clear
+   39  git add .
+   40  git log --oneline
+   41  git commit -amend -m "added 5 & 6"
+   42  git log --oneline
+   43  git show
+   44  git log --oneline
+   45  git commit -amend -m "added 5 and 6"
+   46  git log --oneline
+   47  history >> 01_Commands.txt
