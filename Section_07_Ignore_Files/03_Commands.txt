@@ -1,0 +1,25 @@
+ls -l
+cat .gitignore
+clear
+ls -l
+vi .gitignore
+git status
+git add .
+git commit -m "updated .gitignore"
+clear
+git status
+echo "Milpitas" >> cities.txt
+ls -l
+cat cities.txt
+clear
+git status
+git rm --cached cities.txt
+ls -l
+cat cities.txt
+git status
+git add .
+clear
+git commit -m "ignoring cities.txt"
+git status
+vi cities.txt
+git status

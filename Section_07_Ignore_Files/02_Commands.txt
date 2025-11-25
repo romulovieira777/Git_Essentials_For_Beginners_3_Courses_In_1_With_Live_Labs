@@ -1,0 +1,18 @@
+git status
+ls -l
+mkdir config
+ls -l
+git status
+mkdir -p secrets/app
+git status
+cd config/
+touch .trackme
+git status
+cd ..
+git statusclear
+ls -l
+cd secrets/app
+touch .trackme
+cd ../..
+clear
+git status

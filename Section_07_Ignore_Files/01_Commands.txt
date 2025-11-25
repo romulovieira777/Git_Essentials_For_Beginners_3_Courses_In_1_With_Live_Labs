@@ -1,0 +1,53 @@
+vi .gitignore
+git status
+git add .
+git commit -m "added .gitignore file"
+clear
+git status
+touch app.log
+date > app.log
+git status
+ls -l
+touch sample.log
+git status
+rm sample.log
+vi .gitignore
+clear
+git status
+git add .
+git commit -m ".gitignore file updated"
+git status
+ls -l
+clear
+touch sample.log
+touch 122.log
+ls -l
+git status
+mkdir media
+cd media
+touch sample.jpg sample.png sample.gif movie.mp4
+cd ..
+ls -l
+git status
+rm -rf media
+vi .gitignore
+clear
+git status
+git add .
+git commit -m "updated"
+git status
+mkdir media
+cd media
+ls -l
+touch 123.jpg 123.mp4
+cd ..
+ls -l
+git status
+ls -la
+clear
+git config --global core.excluesfile ~/.gitignore_all_git_repos
+git config --global --list
+vi .gitignore
+ls -l
+touch abc.log security.log
+git status
