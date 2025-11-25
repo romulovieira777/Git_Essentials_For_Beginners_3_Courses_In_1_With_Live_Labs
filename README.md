@@ -7,5 +7,6 @@
 - [Section 04 - Git Installation & Basic Concepts](https://github.com/romulovieira777/Git_Essentials_For_Beginners_3_Courses_In_1_With_Live_Labs/tree/main/Section_04_Git_Installation_%26_Basic_Concepts)
 - [Section 05 - Git Architecture & Basic Operations](https://github.com/romulovieira777/Git_Essentials_For_Beginners_3_Courses_In_1_With_Live_Labs/tree/main/Section_05_Git_Architecture_Basic_Operations)
 - [Section 06 - Revert the Changes](https://github.com/romulovieira777/Git_Essentials_For_Beginners_3_Courses_In_1_With_Live_Labs/tree/main/Section_06_Revert_the_Changes)
+- [Section 07 - Ignore Files]()
 
 Link to the course: [Udemy](https://www.udemy.com/course/mastering-git-for-beginners-and-experts/)
