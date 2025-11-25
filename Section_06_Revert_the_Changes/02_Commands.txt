@@ -1,0 +1,26 @@
+ls -l
+cd proj1
+git status
+git log --oneline
+ls -l
+git log --oneline
+cat fruits.txt
+git revert b9664600
+cat fruits.txt
+git show b9664600
+git log --oneline
+git show b9664600
+cat cities.txt
+cd ../proj2
+ls -l
+git log --oneline
+cat fruits.txt
+cat cities.txt
+git revert 3a5f4e2d
+cat fruits.txt
+cat cities.txt
+clear
+git log --oneline
+cat fruits.txt
+git revert 3a5f4e2a
+cat fruits.txt

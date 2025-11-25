@@ -1,0 +1,15 @@
+git status
+clear
+touch tmp.1txt
+ls -l
+git status
+git clean
+git clean -n
+git add tmp.1txt
+git status
+git clean -n
+git status
+git clean -n
+git clean -f
+ls -l
+git status
